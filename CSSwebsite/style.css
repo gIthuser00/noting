@@ -1,0 +1,181 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+    }
+    
+    
+    .yellow-section {
+        background-color: #fcba03;
+        flex: 8;
+    }
+    
+    
+    
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .logo-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .logo {
+        width: 54px; 
+        height: auto;
+    }
+
+   .logo-container {
+    background-color: #fcba03;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.download-button {
+    background-color: black;
+    color: #fcba03;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: black;
+    color: red;
+}
+
+.custom-button {
+    background-color: #000; 
+    color: #fcba03; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+
+.custom-button:hover {
+ color: red;
+}
+    
+body {
+    background-color: #fcba03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background-color: #fcba03;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.card p {
+    color: black;
+    font-size: 14px;
+}
+
+.card button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #fcba03;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px; 
+
+.card {
+    background-color: #fcba03;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.card p {
+    color: black;
+    font-size: 14px;
+}
+
+.card button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
